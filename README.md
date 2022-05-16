@@ -1,2 +1,3 @@
 # tensorflowimagerecognition
 Sistema de reconocimiento de imagenes con tensorflow en un Raspberry PI 4, con entrenamiento, prueba de cámara y sistema de reconocimiento con reportes via email. Proyecto finalista en MOSTRATEC 2019, Novo Hamburgo, Brasil.
+Ejecutar el train.py en un directorio, introducir las imagenes de entrenamiento y validación en la carpeta ./data/entrenamiento y ./data/validacion respectivamente, el modelo y los pesos se guardaron en la carpeta ./modelo y serán utilizados por el reconocimiento. Las imagenes para el reconocimiento deben estar en formato JPG y guardadas empezando con el nombre DJI_0001 sucesivamente.
